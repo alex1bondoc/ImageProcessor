@@ -1,0 +1,7 @@
+Task 1: am folosit un algoritm simplu care parcurge matricea si inverseaza fiecare linie in parte.
+Task 2: am folosit un algoritm care parcurge matricea si realizeaza in imaginea a_imagine, imaginea initiala rotita spre stanga.
+Task 3: am facut un algoritm care creaza in matricea a_image cropul matricei initiale cu ajutorul unor foruri.
+Task 4: am adaugat matricea initiala in mijlocul matricei noi si dupa am completat spatiile lipsa cu numerele date prin parametrii new_R new_G si new_R
+Task 5: am folosti matricea destinatie in care am adaugat de la punctul x y imaginea sursa folosind foruri pentru a ne asigura ca nu depasim imaginea destinatie sau h w
+Task 6: am parcurs fiecare element din imagine si cu ajutorul unor foruri pentru fiecare element din matrice am creat noul element prin parcurgerea filtrului. 
+Task 7: am inceput printr-un string initializat cu "a" pe care il comparam constant cu sirul "e" pentru a verifica daca utilizatorul isi doreste sa opreasca programul. Dupa care am verificat pentru fiecare dintre comenzile posibile si am facut sa citeasca de la tastatura orice ii trebuie pentru functia respectiva. Dupa care aplicam ceea ce era nevoie in functie, pentru a updata imaginea. Pentru eliminarea filtrelor si a imaginilor am folosit un algoritm clasic de la vectori dupa ce eliberam memoria tinuta de imaginea pe care incercam sa o eliminam. Eliberam fiecare imagine in functiile din imageproccesing.c. Si la final eliminam toate imaginile si filtrele folosindu-ne de cnt_im si cnt_fil.
